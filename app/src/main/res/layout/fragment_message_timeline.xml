@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/branco"
+    tools:context="br.edu.ufcg.embedded.motofest.activity.MainActivity">
+
+    <EditText
+        android:textColor="@color/preto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|start"
+        android:paddingTop="10dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@color/branco"
+        android:id="@+id/layoutBoxMessage_et"
+        android:focusable="true">
+    </EditText>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_content_send"
+            android:padding="10dp"
+            android:layout_gravity="end"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:id="@+id/bt_send" />
+    </FrameLayout>
+
+
+</RelativeLayout>

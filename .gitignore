@@ -1,8 +1,8 @@
-# Built application files
+#Built application files
 *.apk
 *.ap_
 
-# Files for the ART/Dalvik VM
+# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -11,11 +11,11 @@
 # Generated files
 bin/
 gen/
-out/
 
 # Gradle files
 .gradle/
 build/
+/*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,17 +24,7 @@ local.properties
 proguard/
 
 # Log Files
-*.log
+*.log.gradle/
 
-# Android Studio Navigation editor temp files
-.navigation/
-
-# Android Studio captures folder
-captures/
-
-# Intellij
+.idea/
 *.iml
-.idea/workspace.xml
-
-# Keystore files
-*.jks

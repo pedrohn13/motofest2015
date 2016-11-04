@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_motofest_splash">
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/checkBox_sound"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"/>
+
+    <RelativeLayout
+        android:id="@+id/layoutinfoMotofest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutGooglePlus">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/splash_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/laucher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/app_full_name"
+            android:id="@+id/textView3"
+            android:singleLine="false"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/splash_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutGooglePlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_above="@+id/layout_continue_app"
+
+        >
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btSignInDefault"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout_continue_app"
+        android:padding="10dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_with_login"
+            android:id="@+id/continue_app"
+            android:background="@color/mostarda"
+            android:textColor="@color/branco"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/pbContainer"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itens_menu" >
+        <item>Motofest</item>
+        <item>Câmera</item>
+        <item>Timeline</item>
+        <item>Mapa</item>
+        <item>Parceiros</item>
+        <item>Fale Conosco</item>
+        <item>Ajuda</item>
+        <item>Sobre</item>
+        </string-array>
+
+    <string-array name="itens_menuen" >
+        <item>Motofest</item>
+        <item>Camera</item>
+        <item>Timeline</item>
+        <item>Map</item>
+        <item>Partners</item>
+        <item>Contact us</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="nav_drawer_icons_black" >
+        <item>@drawable/ic_drawer_motofest</item>
+        <item>@drawable/ic_drawer_personalize</item>
+        <item>@drawable/ic_drawer_timeline</item>
+        <item>@drawable/ic_drawer_mapa</item>
+        <item>@drawable/ic_drawer_parceiros</item>
+        <item>@drawable/ic_drawer_fale_conosco</item>
+        <item>@drawable/ic_drawer_ajuda</item>
+        <item>@drawable/ic_drawer_sobre</item>
+    </string-array>
+
+    <string-array name="nav_drawer_icons_red" >
+        <item>@drawable/ic_drawer_motofest_v</item>
+        <item>@drawable/ic_drawer_personalize_v</item>
+        <item>@drawable/ic_drawer_timeline_v</item>
+        <item>@drawable/ic_drawer_mapa_v</item>
+        <item>@drawable/ic_drawer_parceiros_v</item>
+        <item>@drawable/ic_drawer_fale_conosco_v</item>
+        <item>@drawable/ic_drawer_ajuda_v</item>
+        <item>@drawable/ic_drawer_sobre_v</item>
+    </string-array>
+</resources>

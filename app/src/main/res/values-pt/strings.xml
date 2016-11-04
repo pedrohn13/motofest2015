@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_id">br.edu.ufcg.embedded.motofest</string>
+
+    <string name="app_name">MotoFest</string>
+    <string name="app_full_name">MotoFest 2015</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_activity_camera">Câmera</string>
+    <string name="no_camera">O dispositivo não possui câmera</string>
+    <string name="camera_not_found">Câmera não disponível</string>
+    <string name="error_create_media">Erro ao criar arquivo de mídia</string>
+    <string name="img_saved">Imagem salva na galeria com sucesso</string>
+    <string name="carregando_localizacao">Carregando Localização</string>
+    <string name="to_motofest">Motofest 2015</string>
+    <string name="my_location">Minha Localização</string>
+    <string name="enable_gps">Ativar GPS ou qualquer outro serviço de localização. Clique em OK para ir para as configurações de serviços de localização para fazer isso</string>
+    <string name="shout_route">Traçar Rota</string>
+    <string name="bt_wifi">Wi-Fi</string>
+    <string name="bt_mobile_network">Rede Móvel</string>
+    <string name="enable_network">Ativar conexão com a Internet para usar esse recurso. Clique Wi-fi para abrir as configurações Wi-Fi ou serviços de rede móvel para permitir a sua rede de dados</string>
+    ok
+    <string name="bt_cancel">Cancelar</string>
+    <string name="ok">Ok</string>
+    <string name="pinpoint">Marcadores</string>
+    <string name="programacao">Programação</string>
+    <string name="apoio">Apoio</string>
+
+    <string name="hoje">Hoje</string>
+    <string name="sun">Domingo</string>
+    <string name="mon">Segunda</string>
+    <string name="tue">Terça</string>
+    <string name="wed">Quarta</string>
+    <string name="thu">Quinta</string>
+    <string name="fri">Sexta</string>
+    <string name="sat">Sábado</string>
+
+
+<string name="share_app_text">Você quer saber tudo sobre o Campina Grande Motofest? - Eu encontrei um app excelente para Android:
+Obtenha o aplicativo gratuitamente em </string>
+
+    <string name="paragrafo">"    O Campina Grande Motofest teve seu início no ano de 2006, contando apenas com pequenas feiras que acontecia no Açude Velho. Na época, o Empresário idealizador do evento, o Motociclista Álvaro Lucena lutou e com muita garra e determinação, consolidou o evento na cidade já na sua segunda edição.
+          Ano a ano o empresário galgou para transformar o Campina Grande Motofest em um grande evento para a cidade, trazendo turistas motociclistas do mundo todo que movimenta a economia local gerando emprego e renda formal e informal.
+</string>
+
+ <string name="paragrafo4">
+     "Hoje o Campina Grande Motofest está incluído no calendário de eventos de Campina Grande e da Paraíba, se tornou um evento oficial, de grande importância para a cidade. A festa conta com stand de lojas, praça de alimentação, banheiros químicos, palco para shows, forró pé de serra, policiamento e ambulância.
+</string>
+
+
+    <string name="frase">O Mega Evento Internacional do Nordeste</string>
+
+    <string name="agora">Como é agora:</string>
+    <string name="comeco">Como tudo começou:</string>
+
+    <string name="partners">Parceiros</string>
+
+    <!-- Motoclubes parceiros -->
+    <string name="Motoclube">Motoclubes</string>
+    <string name="Motoclube1">ROTA 230</string>
+    <string name="Motoclube1_sub">FACÇÃO RJ,SP,PB</string>
+    <string name="Motoclube2">MISSÕES SOBRE RODAS</string>
+    <string name="Motoclube2_sub">Campina Grande - PB</string>
+    <string name="Motoclube3">CÃES EM FÚRIA</string>
+    <string name="Motoclube3_sub">Campina Grande - PB</string>
+    <string name="Motoclube4">MISSIONÁRIOS ESTRADEIROS</string>
+    <string name="Motoclube4_sub">Campina Grande - PB</string>
+    <string name="Motoclube5">CÃES DE GUERRA</string>
+    <string name="Motoclube5_sub">Campina Grande - PB</string>
+    <string name="Motoclube6">FANTASMAS DO ASFALTO</string>
+    <string name="Motoclube6_sub">Campina Grande - PB</string>
+    <string name="Motoclube7">TARTARUGAS DO ASFALTO</string>
+    <string name="Motoclube7_sub">Pocinhos - PB</string>
+    <string name="Motoclube8">VINGADORES DO ASFALTO</string>
+    <string name="Motoclube8_sub">Campina Grande - PB</string>
+    <string name="Motoclube9">LUZ DE CRISTO</string>
+    <string name="Motoclube9_sub">Campina Grande - PB</string>
+    <string name="Motoclube10">LEGENDÁRIOS DO ASFALTO</string>
+    <string name="Motoclube10_sub">Campina Grande - PB</string>
+    <string name="Motoclube11">MC ESQUADRÃO DE CRISTO</string>
+    <string name="Motoclube11_sub">Paraíba</string>
+    <string name="Motoclube12">OLHOS DE ÁGUIA</string>
+    <string name="Motoclube12_sub">Recife - PE</string>
+    <string name="Motoclube13">PEGADAS NO ASFALTO</string>
+    <string name="Motoclube13_sub">Souza - PB</string>
+    <string name="Motoclube14">DRAGÕES TEMPLÁRIOS</string>
+    <string name="Motoclube14_sub">Natal - RN</string>
+    <string name="Motoclube15">PINTO PEQUENO</string>
+    <string name="Motoclube15_sub">Monteiro - PB</string>
+    <string name="Motoclube16">URUBU CANGUEIRO</string>
+    <string name="Motoclube16_sub">Picui - PB</string>
+    <string name="Motoclube17">TIGRES DO ASFALTO</string>
+    <string name="Motoclube17_sub">João Pessoa - PB</string>
+    <string name="Motoclube18">COMANDO GERAL</string>
+    <string name="Motoclube18_sub">Campina Grande - PB</string>
+    <string name="Motoclube19">OURIÇOS DO ASFALTO</string>
+    <string name="Motoclube19_sub">Ipojuca - PB</string>
+    <string name="Motoclube20">COMANDO GERAL DAS HAYABUSAS</string>
+    <string name="Motoclube20_sub">Campina Grande - PB</string>
+    <string name="Motoclube21">ARANHAS NEGRAS</string>
+    <string name="Motoclube21_sub">João Pessoa - PB</string>
+    <string name="Motoclube22">RENEGADOS 46</string>
+    <string name="Motoclube22_sub">João Pessoa - PB</string>
+    <string name="Motoclube23">ARCHANGELS OF PEACE</string>
+    <string name="Motoclube23_sub">Campina Grande - PB</string>
+    <string name="Motoclube24">KANSAS CLUBE LEÃO DO ASFALTO</string>
+    <string name="Motoclube24_sub">João Pessoa - PB</string>
+    <string name="Motoclube25">RATOS DO BREJO</string>
+    <string name="Motoclube25_sub">Brejo do Cruz - PB</string>
+
+    <string name="bt_markers">Marcadores</string>
+    <string name="notification_title_1">Faltam apenas 30 dias para o Motofest Campina Grande, ansioso?</string>
+    <string name="notification_title_2">Faltam apenas 15 dias para o Motofest Campina Grande, ansioso?</string>
+    <string name="notification_title_3">Faltam apenas 7 dias para o Motofest Campina Grande, ansioso?</string>
+
+    <string name="timeline">Timeline</string>
+    <string name="about">Sobre</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_rate">Classificar</string>
+    <string name="help">Ajuda</string>
+    <string name="contact_us">Fale Conosco</string>
+    <string name="action_feedback">Avaliar</string>
+
+    <string name="add_avaliation">Adicione sua avaliação…</string>
+    <string name="the_event">O Evento</string>
+
+    <string name="programacao_descricao">Confira toda a programação do Motofest 2015</string>
+    <string name="youtube">Youtube</string>
+    <string name="youtube_descricao">Clique neste ícone para ouvir as músicas das atrações que vão se apresentar no evento.</string>
+    <string name="mapa_descricao">Veja o mapa do local do evento e verifique a localização dos estandes, palcos, centro de saúde e muito mais</string>
+    <string name="mark">Marcador</string>
+    <string name="marker_decricao">Saiba como encontrar hospedagem, estandes, banheiros, centro de saúde e muito mais</string>
+    <string name="camera_descricao">Reúna seus amigos para tirar fotos temáticas e selfies durante o Motofest 2015. Você pode salvá-las em seu dispositivo e compartilhá-las em redes sociais.</string>
+    <string name="main_camera_descricao">Use a câmera principal do dispositivo e continue a tirar fotos personalizadas</string>
+    <string name="selfie_descricao">Tire selfies temáticas com seus amigos.</string>
+    <string name="photo">Câmera</string>
+    <string name="main_camera">Câmera Principal</string>
+    <string name="selfie">Selfie</string>
+    <string name="download">Salvar Imagem</string>
+    <string name="download_descricao">Salve sua foto estilizada em seu dispositivo e o acesse sempre que quiser</string>
+    <string name="Prefeitura">Prefeitura de Campina Grande </string>
+    <string name="SEDE">Secretaria de Desenvolvimento</string>
+
+    <string name="remaining">FALTAM</string>
+    <string name="to_event">para o mega evento internacional do nordeste</string>
+    <string name="timeline_descricao">Converse em tempo real com os participantes do Motofest 2015 e fique por dentro das novidades.</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="continue_with_login">Entre sem logar</string>
+    <string name="hint_message">O que você deseja compartilhar?</string>
+    <string name="message_blank">Sua mensagem está em branco</string>
+    <string name="message_emoticon">Infelizmente não temos suporte para emoticons</string>
+    <string name="sending_message">Enviando…</string>
+
+    <string name="sending_avaliation_title">Espere por favor…</string>
+    <string name="sending_avaliation">Enviando avaliação…</string>
+
+    <string name="item_menu">ITEM MENU</string>
+    <string name="avaliation_text">A organização do Motofest 2015 deseja conhecer sua opinião sobre o evento.</string>
+    <string name="avaliation_send">Avaliação enviada com sucesso</string>
+
+    <string name="version">Version 1.0.2</string>
+    <string name="copyright">2015 Direitos Reservados©\nLaboratorio de Sistemas Embarcados e Computação Pervasiva - UFCG -Brasil</string>
+    <string name="logon_needed">Para ter acesso a este recurso você precisa estar logado</string>
+
+    <string name="days">D</string>
+    <string name="hours">H</string>
+    <string name="minutes">M</string>
+    <string name="seconds">S</string>
+    <string name="desenvolvedores">Desenvolvedores:\nBruno Rocha, Caio Vidal,\nLucas Matos, Pedro Henriques</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_logout">Desconectar</string>
+    <string name="designers">Designers: \nAlex Galvão, Aristóteles Júnior, Felipe Malhaeiros, Isadora Vasconcelos</string>
+    <string name="modificacoes">Notificações na linha do tempo</string>
+    <string name="notificao">Notificação silenciosa</string>
+    <string name="tela">Tela inicial</string>
+    <string name="Exibir">Exibir tela inicial quando inicia o aplicativo</string>
+    <string name="reproduzir">Reproduzir sons ao iniciar</string>
+
+    <string name="message_error">Toque para tentar novamente</string>
+    <string name="tema">Motofest 2015</string>
+    <string name="tempo">00D 00H 00M 00S</string>
+    <string name="flash">Flash</string>
+    <string name="flash_descricao">Ative ou desative o flash para melhor qualidade da imagem.</string>
+    <string name="texto2">Avaliaçao obrigatória</string>
+    <string name="action_login">Conectar</string>
+    <string name="seconds_ago">Segundos atrás</string>
+    <string name="a">Há</string>
+    <string name="minute">minuto</string>
+    <string name="hour">hora</string>
+    <string name="yesterday_at">Yesterday at</string>
+    <string name="at">às</string>
+    <string name="new_publication">Nova Publicação</string>
+    <string name="edit_publication">Editar Publicação</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="txt_theme">Tema</string>
+    <string name="select_theme">Ativar novo tema</string>
+    <string name="red">Vermelho</string>
+    <string name="black">Preto</string>
+    <string name="SEDE1">Econômico</string>
+    <string name="no_app_to_share">Para compartilhar, você precisa ter instalado os aplicativos Facebook, Instagram, Whatsapp ou Twitter.</string>
+    <string name="choose_app">"Escolha em qual aplicativo quer compartilhar"</string>
+    <string name="share_text">Eu Fui para o 10º Campina Moto Fest, o Encontro Internacional de Motociclistas e Moto-Clubes em Campina Grande!</string>
+
+    <!-- Marcadores -->
+    <string name="accommodarion">Hospedagem</string>
+    <string name="booth">Estande</string>
+    <string name="parking">Estacionamento</string>
+    <string name="food_court">Alimentação</string>
+    <string name="booth_inscriptions">Inscrição</string>
+    <string name="booth_fome_zero">Fome Zero</string>
+    <string name="wc">Banheiro</string>
+    <string name="stage">Palco</string>
+    <string name="blips">Blips</string>
+    <string name="pavilion">Pavilhão</string>
+    <string name="dealers">Concessionárias</string>
+    <string name="security">Segurança</string>
+    <string name="exit">Saída</string>
+    <string name="login_success">Login efetuado com sucesso</string>
+    <string name="logout_success">Logout efetuado com sucesso</string>
+    <string name="login_error">Erro ao fazer login</string>
+    <string name="not_support">Sem suporte</string>
+    <string name="parceiros">Motoclubes parceiros</string>
+    <string name="parceiros_descricao">Conheça os Motoclubes Parceiros do evento.</string>
+    <string name="Faleconosco">Fale conosco</string>
+    <string name="faleconosco_descricao">Envie sua opnião sobre o evento para a organização.</string>
+    <string name="informacao">Espere! Aplicando moldura</string>
+    <string name="mensagem_notificacao">novas mensagens</string>
+    <string name="error">\Algo errado aconteceu, tente novamente.\</string>
+
+    <string name="what_to_do">O que você quer fazer?</string>
+    <string name="editing_publication">Editando publicação...</string>
+    <string name="delete_publication">Excluindo publicação...</string>
+    <string name="wait">Aguarde</string>
+
+</resources>

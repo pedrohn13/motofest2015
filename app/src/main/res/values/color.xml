@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="laranja">#E07A55</color>
+    <color name="laranja_escuro">#A54F0D</color>
+    <color name="laranja_claro">#EFBDA7</color>
+    <color name="azul_escuro">#138dd8</color>
+    <color name="azul_claro">#3083b7</color>
+    <color name="azul">#27a0e9</color>
+    <color name="mostarda">#f67c01</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="vermelho">#F90707</color>
+    <color name="vermelho_claro">#ad0000</color>
+    <color name="vermelho_escuro">#680000</color>
+    <color name="preto">#000000</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="pink">#e91e63</color>
+    <color name="cinza">#1b1b1b</color>
+    <color name="cinza_claro">#4b4b4b</color>
+    <color name="cinza_escuro">#0b0b0b</color>
+
+
+</resources>

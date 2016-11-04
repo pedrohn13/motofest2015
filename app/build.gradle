@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+apply from: 'config/quality/quality.gradle'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    signingConfigs {
+        config {
+            keyAlias 'MotoFest2015'
+            keyPassword 'motofestkey2015'
+            storeFile file('release.jks')
+            storePassword 'motofest2015'
+        }
+
+        configRelease {
+            keyAlias 'MotoFest2015'
+            keyPassword 'motofestkey2015'
+            storeFile file('release.jks')
+            storePassword 'motofest2015'
+        }
+    }
+
+    defaultConfig {
+        applicationId "br.edu.ufcg.embedded.motofest"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 5
+        versionName "1.0.4"
+
+        //Espresso
+        //testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.configRelease
+        }
+        debug {
+            testCoverageEnabled = true
+            signingConfig signingConfigs.configRelease
+        }
+    }
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //Espresso
+    //compile 'com.android.support:support-annotations:23.0.1'
+
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.google.android.gms:play-services:7.5.0'
+    compile 'com.getbase:floatingactionbutton:1.9.0'
+    compile 'org.apache.commons:commons-lang3:3.0'
+    //compile 'com.rockerhieu.emojicon:library:1.0'
+
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+
+    //compile 'com.mcxiaoke.volley:library:1.0.17'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    
+    //Espresso
+   // androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'
+    //androidTestCompile 'com.android.support.test:runner:0.4'
+    //androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2'
+
+    //UIAutomator
+    //androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.0.0'
+}
